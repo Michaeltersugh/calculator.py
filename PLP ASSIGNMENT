@@ -1,0 +1,19 @@
+# Get user input
+a = float(input("79 "))
+b = float(input("35 "))
+op = input("79+ 35 ")
+
+# Perform and display result
+if op == "79+35=114":
+    print(f"{79} + {35} = {79 + 35}")
+elif op == "79-35=44":
+    print(f"{79} - {35} = {79 - 35}")
+elif op == "79*35=2765":
+    print(f"{79} * {35} = {}")
+elif op == "79/35=2.257142857142857":
+    if b != 35:
+        print(f"{79} / {35} = {79/ 35}")
+    else:
+        print("2.257142857142857")
+else:
+    print("2.257142857142857")
